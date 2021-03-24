@@ -2,7 +2,7 @@
 layout: post
 title: "10 Years of Reading Regularly"
 twitterCardTitle: "10 Years of Reading"
-date: 2020-12-26 12:00:36 +0200
+date: 2022-12-26 12:00:36 +0200
 ---
 
 I didn't really start reading untill I turned 20 but I've kept up with the habit since then. I'm the kind of person who likes to track things and am motivated by bagdes and stars, so I've build up quite a nice datasset describing my reading habits. In this blogpost I will create the visualization that I was sites like Goodreads would do for me.

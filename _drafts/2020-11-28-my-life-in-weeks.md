@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My Life In Weeks"
-date: 2020-11-28 12:00:36 +0200
+date: 2021-01-23 12:00:36 +0200
 ---
 
 We're nearing the end of the year which is always a time of reflection for me. I recently re-read the [Your Life in Weeks](https://waitbutwhy.com/2014/05/life-weeks.html) blogpost over at [Wait But Why](https://waitbutwhy.com/) and decided that now would be a good time to try that tool for self-reflection.
