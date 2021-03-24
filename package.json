@@ -5,6 +5,7 @@
         "d3-3d": "^0.0.7",
         "page-flip": "^2.0.0",
         "puppeteer-core": "^5.5.0",
+        "stocks.js": "0.0.19",
         "three": "^0.101.1"
     },
     "devDependencies": {
