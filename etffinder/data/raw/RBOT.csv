@@ -1,0 +1,158 @@
+,Issuer Ticker,Name,Asset Class,Weight (%),Price,Nominal,Market Value,Notional Value,Sector,ISIN,Exchange,Location,Market Currency
+0,SNAP,SNAP INC CLASS A,Equity,4.08,58.49,"2,565,765.00","150,071,594.85","150,071,594.85",Communication,US83304A1060,New York Stock Exchange Inc.,United States,USD
+1,6594,NIDEC CORP,Equity,2.7,124.98,"794,732.00","99,327,826.02","99,327,826.02",Industrials,JP3734800000,Tokyo Stock Exchange,Japan,JPY
+2,HEXA B,HEXAGON B,Equity,2.23,90.41,"908,693.00","82,156,930.92","82,156,930.92",Information Technology,SE0000103699,Nasdaq Omx Nordic,Sweden,SEK
+3,KLAC,KLA CORP,Equity,2.2,288.74,"280,037.00","80,857,883.38","80,857,883.38",Information Technology,US4824801009,NASDAQ,United States,USD
+4,TER,TERADYNE INC,Equity,2.16,112.37,"706,745.00","79,416,935.65","79,416,935.65",Information Technology,US8807701029,NASDAQ,United States,USD
+5,6201,TOYOTA INDUSTRIES CORP,Equity,2.16,92.50,"858,200.00","79,382,023.40","79,382,023.40",Consumer Discretionary,JP3634600005,Tokyo Stock Exchange,Japan,JPY
+6,QCOM,QUALCOMM INC,Equity,2.12,129.75,"601,861.00","78,091,464.75","78,091,464.75",Information Technology,US7475251036,NASDAQ,United States,USD
+7,MCHP,MICROCHIP TECHNOLOGY INC,Equity,2.05,145.49,"518,916.00","75,497,088.84","75,497,088.84",Information Technology,US5950171042,NASDAQ,United States,USD
+8,EMR,EMERSON ELECTRIC,Equity,2.04,89.46,"836,392.00","74,823,628.32","74,823,628.32",Industrials,US2910111044,New York Stock Exchange Inc.,United States,USD
+9,AMD,ADVANCED MICRO DEVICES INC,Equity,2.03,78.12,"957,188.00","74,775,526.56","74,775,526.56",Information Technology,US0079031078,NASDAQ,United States,USD
+10,NVDA,NVIDIA CORP,Equity,1.99,508.90,"143,734.00","73,146,232.60","73,146,232.60",Information Technology,US67066G1040,NASDAQ,United States,USD
+11,AAPL,APPLE INC,Equity,1.97,120.53,"602,175.00","72,580,152.75","72,580,152.75",Information Technology,US0378331005,NASDAQ,United States,USD
+12,6857,ADVANTEST CORP,Equity,1.96,85.62,"841,500.00","72,045,836.20","72,045,836.20",Information Technology,JP3122400009,Tokyo Stock Exchange,Japan,JPY
+13,AME,AMETEK INC,Equity,1.9,121.67,"574,045.00","69,844,055.15","69,844,055.15",Industrials,US0311001004,New York Stock Exchange Inc.,United States,USD
+14,GRMN,GARMIN LTD,Equity,1.89,125.45,"553,139.00","69,391,287.55","69,391,287.55",Consumer Discretionary,CH0114405324,NASDAQ,United States,USD
+15,MRVL,MARVELL TECHNOLOGY GROUP LTD,Equity,1.88,45.55,"1,517,618.00","69,127,499.90","69,127,499.90",Information Technology,BMG5876H1051,NASDAQ,United States,USD
+16,XLNX,XILINX INC,Equity,1.87,122.25,"563,486.00","68,886,163.50","68,886,163.50",Information Technology,US9839191015,NASDAQ,United States,USD
+17,6954,FANUC CORP,Equity,1.84,252.53,"267,654.00","67,591,998.90","67,591,998.90",Industrials,JP3802400006,Tokyo Stock Exchange,Japan,JPY
+18,ISRG,INTUITIVE SURGICAL INC,Equity,1.76,699.32,"92,319.00","64,560,523.08","64,560,523.08",Health Care,US46120E6023,NASDAQ,United States,USD
+19,ROK,ROCKWELL AUTOMATION INC,Equity,1.74,260.31,"245,410.00","63,882,677.10","63,882,677.10",Industrials,US7739031091,New York Stock Exchange Inc.,United States,USD
+20,6645,OMRON CORP,Equity,1.71,84.61,"744,000.00","62,947,281.49","62,947,281.49",Information Technology,JP3197800000,Tokyo Stock Exchange,Japan,JPY
+21,NOW,SERVICENOW INC,Equity,1.71,466.18,"134,827.00","62,853,650.86","62,853,650.86",Information Technology,US81762P1021,New York Stock Exchange Inc.,United States,USD
+22,DSY,DASSAULT SYSTEMES,Equity,1.7,209.82,"297,602.00","62,442,963.24","62,442,963.24",Information Technology,FR0000130650,Nyse Euronext - Euronext Paris,France,EUR
+23,ADSK,AUTODESK INC,Equity,1.65,263.44,"230,795.00","60,800,634.80","60,800,634.80",Information Technology,US0527691069,NASDAQ,United States,USD
+24,ANSS,ANSYS INC,Equity,1.63,321.49,"185,947.00","59,780,101.03","59,780,101.03",Information Technology,US03662Q1058,NASDAQ,United States,USD
+25,CGNX,COGNEX CORP,Equity,1.58,80.03,"727,930.00","58,256,237.90","58,256,237.90",Information Technology,US1924221039,NASDAQ,United States,USD
+26,6506,YASKAWA ELECTRIC CORP,Equity,1.58,51.57,"1,124,675.00","58,001,133.29","58,001,133.29",Industrials,JP3932000007,Tokyo Stock Exchange,Japan,JPY
+27,6861,KEYENCE CORP,Equity,1.54,472.22,"120,200.00","56,760,651.53","56,760,651.53",Information Technology,JP3236200006,Tokyo Stock Exchange,Japan,JPY
+28,PTC,PTC INC,Equity,1.53,127.03,"443,617.00","56,352,667.51","56,352,667.51",Information Technology,US69370C1009,NASDAQ,United States,USD
+29,OTEX,OPEN TEXT CORP,Equity,1.5,48.36,"1,141,889.00","55,221,752.04","55,221,752.04",Information Technology,CA6837151068,NASDAQ,Canada,USD
+30,INTC,INTEL CORPORATION CORP,Equity,1.47,63.73,"846,992.00","53,974,565.20","53,974,565.20",Information Technology,US4581401001,NASDAQ,United States,USD
+31,HLMA,HALMA PLC,Equity,1.38,31.72,"1,601,007.00","50,783,099.91","50,783,099.91",Information Technology,GB0004052071,London Stock Exchange,United Kingdom,GBP
+32,6383,DAIFUKU LTD,Equity,1.37,96.72,"521,911.00","50,478,934.99","50,478,934.99",Industrials,JP3497400006,Tokyo Stock Exchange,Japan,JPY
+33,6920,LASERTEC CORP,Equity,1.37,126.73,"397,000.00","50,310,346.41","50,310,346.41",Information Technology,JP3979200007,Tokyo Stock Exchange,Japan,JPY
+34,6723,RENESAS ELECTRONICS CORP,Equity,1.33,11.63,"4,219,403.00","49,056,972.71","49,056,972.71",Information Technology,JP3164720009,Tokyo Stock Exchange,Japan,JPY
+35,SAP,SAP,Equity,1.27,122.54,"381,751.00","46,780,263.82","46,780,263.82",Information Technology,DE0007164600,Xetra,Germany,EUR
+36,6479,MINEBEA MITSUMI INC,Equity,1.27,25.95,"1,801,800.00","46,758,342.74","46,758,342.74",Industrials,JP3906000009,Tokyo Stock Exchange,Japan,JPY
+37,3008,LARGAN PRECISION LTD,Equity,1.19,121.02,"362,793.00","43,905,375.25","43,905,375.25",Information Technology,TW0003008009,Taiwan Stock Exchange,Taiwan,TWD
+38,AZPN,ASPEN TECHNOLOGY INC,Equity,1.13,145.13,"286,381.00","41,562,474.53","41,562,474.53",Information Technology,US0453271035,NASDAQ,United States,USD
+39,6963,ROHM LTD,Equity,1.07,99.66,"393,704.00","39,234,920.30","39,234,920.30",Information Technology,JP3982800009,Tokyo Stock Exchange,Japan,JPY
+40,SPLK,SPLUNK INC,Equity,1.06,133.84,"291,021.00","38,950,250.64","38,950,250.64",Information Technology,US8486371045,NASDAQ,United States,USD
+41,SGE,SAGE GROUP PLC,Equity,1.04,8.08,"4,726,156.00","38,175,975.97","38,175,975.97",Information Technology,GB00B8C3BL03,London Stock Exchange,United Kingdom,GBP
+42,IPGP,IPG PHOTONICS CORP,Equity,0.93,210.78,"162,690.00","34,291,798.20","34,291,798.20",Information Technology,US44980X1090,NASDAQ,United States,USD
+43,LECO,LINCOLN ELECTRIC HOLDINGS INC,Equity,0.88,125.57,"257,846.00","32,377,722.22","32,377,722.22",Industrials,US5339001068,NASDAQ,United States,USD
+44,IPHI,INPHI CORP,Equity,0.84,160.39,"192,574.00","30,886,943.86","30,886,943.86",Information Technology,US45772F1075,NASDAQ,United States,USD
+45,ESTC,ELASTIC NV,Equity,0.76,111.74,"251,430.00","28,094,788.20","28,094,788.20",Information Technology,NL0013056914,New York Stock Exchange Inc.,United States,USD
+46,6845,AZBIL CORP,Equity,0.76,45.33,"612,256.00","27,754,481.67","27,754,481.67",Information Technology,JP3937200008,Tokyo Stock Exchange,Japan,JPY
+47,CDK,CDK GLOBAL INC,Equity,0.74,52.90,"511,847.00","27,076,706.30","27,076,706.30",Information Technology,US12508E1010,NASDAQ,United States,USD
+48,COHR,COHERENT INC,Equity,0.72,260.72,"101,840.00","26,551,724.80","26,551,724.80",Information Technology,US1924791031,NASDAQ,United States,USD
+49,SLAB,SILICON LABORATORIES INC,Equity,0.71,142.29,"183,410.00","26,097,408.90","26,097,408.90",Information Technology,US8269191024,NASDAQ,United States,USD
+50,KGX,KION GROUP AG,Equity,0.7,93.80,"273,852.00","25,687,879.00","25,687,879.00",Industrials,DE000KGX8881,Xetra,Germany,EUR
+51,MSTR,MICROSTRATEGY INC CLASS A,Equity,0.69,732.05,"34,705.00","25,405,795.25","25,405,795.25",Information Technology,US5949724083,NASDAQ,United States,USD
+52,LSCC,LATTICE SEMICONDUCTOR CORP,Equity,0.67,44.00,"563,102.00","24,776,488.00","24,776,488.00",Information Technology,US5184151042,NASDAQ,United States,USD
+53,G1A,GEA GROUP AG,Equity,0.65,38.08,"624,007.00","23,760,018.14","23,760,018.14",Industrials,DE0006602006,Xetra,Germany,EUR
+54,SXS,SPECTRIS PLC,Equity,0.63,45.20,"510,893.00","23,090,355.54","23,090,355.54",Information Technology,GB0003308607,London Stock Exchange,United Kingdom,GBP
+55,6841,YOKOGAWA ELECTRIC CORP,Equity,0.62,19.98,"1,133,387.00","22,641,738.92","22,641,738.92",Information Technology,JP3955000009,Tokyo Stock Exchange,Japan,JPY
+56,VALMT,VALMET,Equity,0.56,36.72,"561,419.00","20,613,663.53","20,613,663.53",Industrials,FI4000074984,Nasdaq Omx Helsinki Ltd.,Finland,EUR
+57,TDC,TERADATA CORP,Equity,0.54,42.38,"468,483.00","19,854,309.54","19,854,309.54",Information Technology,US88076W1036,New York Stock Exchange Inc.,United States,USD
+58,NOVT,NOVANTA INC,Equity,0.51,127.97,"147,861.00","18,921,772.17","18,921,772.17",Information Technology,CA67000B1040,NASDAQ,United States,USD
+59,JBT,JOHN BEAN TECHNOLOGIES CORP,Equity,0.51,139.59,"133,499.00","18,635,125.41","18,635,125.41",Industrials,US4778391049,New York Stock Exchange Inc.,United States,USD
+60,AYX,ALTERYX INC CLASS A,Equity,0.49,81.98,"218,462.00","17,909,514.76","17,909,514.76",Information Technology,US02156B1035,New York Stock Exchange Inc.,United States,USD
+61,KRNT,KORNIT DIGITAL LTD,Equity,0.47,100.58,"171,672.00","17,266,769.76","17,266,769.76",Industrials,IL0011216723,NASDAQ,Israel,USD
+62,AIMC,ALTRA INDUSTRIAL MOTION CORP,Equity,0.45,60.22,"272,364.00","16,401,760.08","16,401,760.08",Industrials,US02208R1068,NASDAQ,United States,USD
+63,HI,HILLENBRAND INC,Equity,0.44,51.31,"317,285.00","16,279,893.35","16,279,893.35",Industrials,US4315711089,New York Stock Exchange Inc.,United States,USD
+64,DIOD,DIODES INC,Equity,0.42,85.04,"183,289.00","15,586,896.56","15,586,896.56",Information Technology,US2545431015,NASDAQ,United States,USD
+65,CRNC,CERENCE INC,Equity,0.42,101.09,"153,424.00","15,509,632.16","15,509,632.16",Information Technology,US1567271093,NASDAQ,United States,USD
+66,DDD,3D SYSTEMS CORP,Equity,0.41,29.85,"499,071.00","14,897,269.35","14,897,269.35",Information Technology,US88554D2053,New York Stock Exchange Inc.,United States,USD
+67,AMBA,AMBARELLA INC,Equity,0.4,105.18,"141,395.00","14,871,926.10","14,871,926.10",Information Technology,KYG037AX1015,NASDAQ,United States,USD
+68,NEM,NEMETSCHEK,Equity,0.39,62.19,"230,995.00","14,365,319.18","14,365,319.18",Information Technology,DE0006452907,Xetra,Germany,EUR
+69,IRBT,IROBOT CORP,Equity,0.38,118.47,"118,052.00","13,985,620.44","13,985,620.44",Consumer Discretionary,US4627261005,NASDAQ,United States,USD
+70,PRLB,PROTO LABS INC,Equity,0.37,120.90,"112,792.00","13,636,552.80","13,636,552.80",Industrials,US7437131094,New York Stock Exchange Inc.,United States,USD
+71,ONTO,ONTO INNOVATION INC,Equity,0.35,60.33,"211,000.00","12,729,630.00","12,729,630.00",Information Technology,US6833441057,New York Stock Exchange Inc.,United States,USD
+72,KCR,KONECRANES,Equity,0.33,44.36,"271,407.00","12,039,885.93","12,039,885.93",Industrials,FI0009005870,Nasdaq Omx Helsinki Ltd.,Finland,EUR
+73,RSW,RENISHAW PLC,Equity,0.32,82.99,"142,605.00","11,835,053.84","11,835,053.84",Information Technology,GB0007323586,London Stock Exchange,United Kingdom,GBP
+74,6856,HORIBA LTD,Equity,0.32,64.51,"181,311.00","11,696,410.46","11,696,410.46",Information Technology,JP3853000002,Tokyo Stock Exchange,Japan,JPY
+75,CLDR,CLOUDERA INC,Equity,0.29,12.17,"868,086.00","10,564,606.62","10,564,606.62",Information Technology,US18914U1007,New York Stock Exchange Inc.,United States,USD
+76,MXL,MAXLINEAR INC,Equity,0.28,36.25,"284,310.00","10,306,237.50","10,306,237.50",Information Technology,US57776J1007,New York Stock Exchange Inc.,United States,USD
+77,ALTR,ALTAIR ENGINEERING INC CLASS A,Equity,0.27,59.14,"170,548.00","10,086,208.72","10,086,208.72",Information Technology,US0213691035,NASDAQ,United States,USD
+78,TOTS3,TOTVS SA,Equity,0.27,5.10,"1,973,858.00","10,074,103.98","10,074,103.98",Information Technology,BRTOTSACNOR8,XBSP,Brazil,BRL
+79,NVMI,NOVA MEASURING INSTRUMENTS LTD,Equity,0.27,85.17,"118,004.00","10,050,367.26","10,050,367.26",Information Technology,IL0010845571,Tel Aviv Stock Exchange,Israel,ILS
+80,INRN,INTERROLL HOLDING AG,Equity,0.27,"3,388.10","2,898.00","9,818,701.86","9,818,701.86",Industrials,CH0006372897,SIX Swiss Exchange,Switzerland,CHF
+81,JUN3,JUNGHEINRICH PREF AG,Equity,0.24,44.50,"202,230.00","9,000,064.14","9,000,064.14",Industrials,DE0006219934,Xetra,Germany,EUR
+82,CGCBV,CARGOTEC CORP,Equity,0.24,53.04,"169,064.00","8,967,560.31","8,967,560.31",Industrials,FI0009013429,Nasdaq Omx Helsinki Ltd.,Finland,EUR
+83,DUE,DUERR AG,Equity,0.24,42.21,"207,013.00","8,738,950.29","8,738,950.29",Industrials,DE0005565204,Xetra,Germany,EUR
+84,CON,CONZZETA AG,Equity,0.23,"1,376.78","6,182.00","8,511,280.37","8,511,280.37",Industrials,CH0244017502,SIX Swiss Exchange,Switzerland,CHF
+85,KAI,KADANT INC,Equity,0.23,178.00,"47,727.00","8,495,406.00","8,495,406.00",Industrials,US48282T1043,New York Stock Exchange Inc.,United States,USD
+86,IFCN,INFICON HOLDING AG,Equity,0.22,"1,094.53","7,325.00","8,017,452.19","8,017,452.19",Information Technology,CH0011029946,SIX Swiss Exchange,Switzerland,CHF
+87,5631,JAPAN STEEL WORKS LTD,Equity,0.2,23.90,"313,900.00","7,500,762.56","7,500,762.56",Industrials,JP3721400004,Tokyo Stock Exchange,Japan,JPY
+88,ATA,ATS AUTOMATION TOOLING SYSTEMS INC,Equity,0.2,21.83,"340,549.00","7,434,192.61","7,434,192.61",Industrials,CA0019401052,Toronto Stock Exchange,Canada,CAD
+89,TNE,TECHNOLOGY ONE LTD,Equity,0.2,7.29,"1,003,698.00","7,314,808.00","7,314,808.00",Information Technology,AU000000TNE8,Asx - All Markets,Australia,AUD
+90,MOCORP,METSO OUTOTEC CORP,Equity,0.2,10.94,"660,902.00","7,227,112.07","7,227,112.07",Industrials,FI0009014575,Nasdaq Omx Helsinki Ltd.,Finland,EUR
+91,FARO,FARO TECHNOLOGIES INC,Equity,0.18,90.19,"74,712.00","6,738,275.28","6,738,275.28",Information Technology,US3116421021,NASDAQ,United States,USD
+92,YEXT,YEXT INC,Equity,0.18,14.97,"449,961.00","6,735,916.17","6,735,916.17",Information Technology,US98585N1063,New York Stock Exchange Inc.,United States,USD
+93,5269,ASMEDIA TECHNOLOGY INC,Equity,0.18,54.95,"122,448.00","6,727,912.09","6,727,912.09",Information Technology,TW0005269005,Taiwan Stock Exchange,Taiwan,TWD
+94,3406,GENIUS ELECTRONIC OPTICAL LTD,Equity,0.17,16.93,"377,509.00","6,389,414.19","6,389,414.19",Information Technology,TW0003406005,Taiwan Stock Exchange,Taiwan,TWD
+95,SSYS,STRATASYS LTD,Equity,0.17,26.87,"228,773.00","6,147,130.51","6,147,130.51",Information Technology,IL0011267213,NASDAQ,United States,USD
+96,DOMO,DOMO INC CLASS B,Equity,0.16,60.60,"98,226.00","5,952,495.60","5,952,495.60",Information Technology,US2575541055,NASDAQ,United States,USD
+97,7732,TOPCON CORP,Equity,0.16,12.85,"462,114.00","5,936,770.82","5,936,770.82",Information Technology,JP3630400004,Tokyo Stock Exchange,Japan,JPY
+98,ZUO,ZUORA INC CLASS A,Equity,0.15,14.69,"378,671.00","5,562,676.99","5,562,676.99",Information Technology,US98983V1061,New York Stock Exchange Inc.,United States,USD
+99,CMCO,COLUMBUS MCKINNON CORP,Equity,0.15,53.60,"102,809.00","5,510,562.40","5,510,562.40",Industrials,US1993331057,NASDAQ,United States,USD
+100,KARN,KARDEX HOLDING AG,Equity,0.15,217.61,"25,230.00","5,490,395.91","5,490,395.91",Industrials,CH0100837282,SIX Swiss Exchange,Switzerland,CHF
+101,6707,SANKEN ELECTRIC LTD,Equity,0.14,47.81,"109,289.00","5,225,012.07","5,225,012.07",Information Technology,JP3329600005,Tokyo Stock Exchange,Japan,JPY
+102,HY,HYSTER YALE MATERIALS HANDLING INC,Equity,0.14,90.20,"55,251.00","4,983,640.20","4,983,640.20",Industrials,US4491721050,New York Stock Exchange Inc.,United States,USD
+103,3443,GLOBAL UNICHIP CORP,Equity,0.14,14.77,"337,000.00","4,977,421.29","4,977,421.29",Information Technology,TW0003443008,Taiwan Stock Exchange,Taiwan,TWD
+104,MTSC,MTS SYSTEMS CORP,Equity,0.12,58.26,"77,737.00","4,528,957.62","4,528,957.62",Information Technology,US5537771033,NASDAQ,United States,USD
+105,MLAB,MESA LABORATORIES INC,Equity,0.12,253.54,"17,674.00","4,481,065.96","4,481,065.96",Health Care,US59064R1095,NASDAQ,United States,USD
+106,900926,SHANGHAI BAOSIGHT SOFTWARE LTD B,Equity,0.12,3.46,"1,272,684.00","4,408,577.38","4,408,577.38",Information Technology,CNE000000GG0,Shanghai Stock Exchange,China,USD
+107,ACP,ASSECO POLAND SA,Equity,0.11,17.61,"228,318.00","4,020,264.28","4,020,264.28",Information Technology,PLSOFTB00016,Warsaw Stock Exchange/Equities/Main Market,Poland,PLN
+108,KOMN,KOMAX HOLDING AG,Equity,0.11,255.10,"15,611.00","3,982,423.70","3,982,423.70",Industrials,CH0010702154,SIX Swiss Exchange,Switzerland,CHF
+109,7105,MITSUBISHI LOGISNEXT LTD,Equity,0.1,11.47,"309,500.00","3,550,126.18","3,550,126.18",Industrials,JP3753800006,Tokyo Stock Exchange,Japan,JPY
+110,2498,HTC CORP,Equity,0.09,1.01,"3,450,385.00","3,480,742.44","3,480,742.44",Information Technology,TW0002498003,Taiwan Stock Exchange,Taiwan,TWD
+111,3019,ASIA OPTICAL INC,Equity,0.09,3.22,"1,002,000.00","3,228,945.97","3,228,945.97",Information Technology,TW0003019006,Taiwan Stock Exchange,Taiwan,TWD
+112,6222,SHIMA SEIKI MFG LTD,Equity,0.09,24.33,"132,694.00","3,228,004.53","3,228,004.53",Industrials,JP3356500003,Tokyo Stock Exchange,Japan,JPY
+113,MTRN,MAYTRONICS LTD,Equity,0.09,18.25,"174,037.00","3,177,044.18","3,177,044.18",Consumer Discretionary,IL0010910656,Tel Aviv Stock Exchange,Israel,ILS
+114,056190,SFA ENGINEERING CORP,Equity,0.08,36.93,"83,135.00","3,070,169.08","3,070,169.08",Industrials,KR7056190002,Korea Exchange (Kosdaq),Korea (South),KRW
+115,3632,GREE INC,Equity,0.08,5.41,"527,200.00","2,854,306.03","2,854,306.03",Communication,JP3274070006,Tokyo Stock Exchange,Japan,JPY
+116,6258,HIRATA CORP,Equity,0.08,64.14,"43,900.00","2,815,884.38","2,815,884.38",Industrials,JP3795300007,Tokyo Stock Exchange,Japan,JPY
+117,6202,HOLTEK SEMICONDUCTOR INC,Equity,0.07,3.16,"823,000.00","2,599,773.86","2,599,773.86",Information Technology,TW0006202005,Taiwan Stock Exchange,Taiwan,TWD
+118,6104,SHIBAURA MACHINE LTD,Equity,0.07,27.90,"91,440.00","2,550,838.27","2,550,838.27",Industrials,JP3592600005,Tokyo Stock Exchange,Japan,JPY
+119,6875,MEGACHIPS CORP,Equity,0.07,31.48,"78,000.00","2,455,058.50","2,455,058.50",Information Technology,JP3920860008,Tokyo Stock Exchange,Japan,JPY
+120,6516,SANYO DENKI LTD,Equity,0.06,55.79,"42,000.00","2,343,289.75","2,343,289.75",Industrials,JP3340800006,Tokyo Stock Exchange,Japan,JPY
+121,6652,IDEC CORP,Equity,0.06,16.68,"126,900.00","2,117,037.85","2,117,037.85",Industrials,JP3138800002,Tokyo Stock Exchange,Japan,JPY
+122,7717,V TECHNOLOGY LTD,Equity,0.05,51.20,"39,200.00","2,007,212.66","2,007,212.66",Information Technology,JP3829900004,Tokyo Stock Exchange,Japan,JPY
+123,5471,SONIX TECHNOLOGY LTD,Equity,0.05,3.32,"592,000.00","1,968,382.74","1,968,382.74",Information Technology,TW0005471007,Taiwan Stock Exchange,Taiwan,TWD
+124,JPY,JPY CASH,Cash,0.05,0.92,"205,769,339.00","1,888,225.18","1,888,225.18",Cash and/or Derivatives,-,-,Japan,JPY
+125,USD,USD CASH,Cash,0.05,100.00,"1,839,264.00","1,839,263.62","1,839,263.62",Cash and/or Derivatives,-,-,United States,USD
+126,6877,OBARA GROUP INC,Equity,0.05,36.66,"47,743.00","1,750,248.08","1,750,248.08",Industrials,JP3197650009,Tokyo Stock Exchange,Japan,JPY
+127,3035,FARADAY TECHNOLOGY CORP,Equity,0.04,1.83,"793,000.00","1,454,248.97","1,454,248.97",Information Technology,TW0003035002,Taiwan Stock Exchange,Taiwan,TWD
+128,EUR,EUR CASH,Cash,0.02,119.25,"582,981.00","695,205.34","695,205.34",Cash and/or Derivatives,-,-,European Union,EUR
+129,SEK,SEK CASH,Cash,0.01,11.74,"3,789,381.00","444,943.21","444,943.21",Cash and/or Derivatives,-,-,Sweden,SEK
+130,TWD,TWD CASH,Cash,0.01,3.53,"11,264,911.00","398,039.33","398,039.33",Cash and/or Derivatives,-,-,Taiwan,TWD
+131,GBP,GBP CASH,Cash,0.01,139.37,"278,952.00","388,760.97","388,760.97",Cash and/or Derivatives,-,-,United Kingdom,GBP
+132,HSBFT,CASH COLLATERAL USD HSBFT,Cash Collateral and Margins,0.01,100.00,"373,000.00","373,000.00","373,000.00",Cash and/or Derivatives,-,-,United States,USD
+133,KRW,KRW CASH,Cash,0.01,0.09,"412,409,625.00","366,994.10","366,994.10",Cash and/or Derivatives,-,-,Korea (South),KRW
+134,MARGIN_KRW,FUTURES KRW MARGIN BALANCE,Cash Collateral and Margins,0.01,0.09,"218,705,950.00","194,621.54","194,621.54",Cash and/or Derivatives,-,-,Korea (South),KRW
+135,AUD,AUD CASH,Cash,0.0,77.94,"131,168.00","102,239.05","102,239.05",Cash and/or Derivatives,-,-,Australia,AUD
+136,HKD,HKD CASH,Cash,0.0,12.88,"780,812.00","100,560.46","100,560.46",Cash and/or Derivatives,-,-,Hong Kong,HKD
+137,PLN,PLN CASH,Cash,0.0,25.82,"376,470.00","97,198.75","97,198.75",Cash and/or Derivatives,-,-,Poland,PLN
+138,CAD,CAD CASH,Cash,0.0,80.41,"108,527.00","87,261.36","87,261.36",Cash and/or Derivatives,-,-,Canada,CAD
+139,ILS,ILS CASH,Cash,0.0,30.37,"210,907.00","64,061.68","64,061.68",Cash and/or Derivatives,-,-,Israel,ILS
+140,CHF,CHF CASH,Cash,0.0,107.73,"48,910.00","52,691.06","52,691.06",Cash and/or Derivatives,-,-,Switzerland,CHF
+141,MYR,MYR CASH,Cash,0.0,24.32,"83,638.00","20,342.42","20,342.42",Cash and/or Derivatives,-,-,Malaysia,MYR
+142,CZK,CZK CASH,Cash,0.0,4.56,"251,452.00","11,473.35","11,473.35",Cash and/or Derivatives,-,-,Czech Republic,CZK
+143,ZAR,ZAR CASH,Cash,0.0,6.77,"156,191.00","10,573.12","10,573.12",Cash and/or Derivatives,-,-,South Africa,ZAR
+144,HUF,HUF CASH,Cash,0.0,0.32,"3,152,247.00","10,203.18","10,203.18",Cash and/or Derivatives,-,-,Hungary,HUF
+145,MXN,MXN CASH,Cash,0.0,4.89,"206,869.00","10,118.81","10,118.81",Cash and/or Derivatives,-,-,Mexico,MXN
+146,TRY,TRY CASH,Cash,0.0,13.68,"64,908.00","8,881.93","8,881.93",Cash and/or Derivatives,-,-,Turkey,TRY
+147,NZD,NZD CASH,Cash,0.0,71.92,"5,966.00","4,290.96","4,290.96",Cash and/or Derivatives,-,-,New Zealand,NZD
+148,DKK,DKK CASH,Cash,0.0,16.04,"25,344.00","4,064.43","4,064.43",Cash and/or Derivatives,-,-,Denmark,DKK
+149,NOK,NOK CASH,Cash,0.0,11.83,"35,105.00","4,152.08","4,152.08",Cash and/or Derivatives,-,-,Norway,NOK
+150,SGD,SGD CASH,Cash,0.0,74.46,"5,238.00","3,900.06","3,900.06",Cash and/or Derivatives,-,-,Singapore,SGD
+151,AED,AED CASH,Cash,0.0,27.22,"14,103.00","3,839.59","3,839.59",Cash and/or Derivatives,-,-,United Arab Emirates,AED
+152,MESM1,MSCI EMER MKT INDEX (ICE) JUN 21,Futures,0.0,"1,324.70",86.00,0.00,"5,696,210.00",Cash and/or Derivatives,-,Ice Futures U.S.,-,USD
+153,BRL,BRL/USD,FX,0.0,1.00,"579,877.00",27.13,27.13,Cash and/or Derivatives,-,-,United States,USD
+154,MARGIN_JPY,FUTURES JPY MARGIN BALANCE,Cash Collateral and Margins,0.0,0.92,-12.00,-0.11,-0.11,Cash and/or Derivatives,-,-,Japan,JPY
+155,BRL,BRL CASH,Cash,0.0,18.05,"-236,088.00","-42,622.56","-42,622.56",Cash and/or Derivatives,-,-,Brazil,BRL
+156, ,,,,,,,,,,,,

@@ -9,7 +9,7 @@ permalink: /cv/
 
 # About
 
-I am Mikkel Hansen, an experience Data Scientist. I have a strong background in mathematics and physics.
+I'm Mikkel Hansen, an experienced Data Scientist. I have a strong background in mathematics and physics.
 
 # Work Experience
 
@@ -21,9 +21,9 @@ I focused on understanding our data and finding problems that could be meaningfu
 
 - Grew the Data Science team from 1 to 5 employees.
 - Assisted in attracting soft funding and investments. 
-- Developed algorithm to predict severe cardiac arrhythmia for cardiac device patients.
-- Developed algorithms to characterise ECG data and suggest medical diagnoses.
-- Set up system for reproducible research based on Jupiter Notebook and internal Python Modules.
+- Developed an algorithm to predict severe cardiac arrhythmia for cardiac device patients.
+- Developed algorithms to characterize ECG data and suggest medical diagnoses.
+- Set up a system for reproducible research based on Jupiter Notebook and internal Python Modules.
 - Conduct user studies of arrhythmia prediction at the hospital.
 - Set up a Data Warehouse on a Windows machine.
 
@@ -33,18 +33,14 @@ Mar 2019 - Mar 2021 (2 years)
 ### Data Scientist
 Apr 2017 - Mar 2019 (2 years)
 
-
-
 ## Roskilde University and Laboratoire Léon Brillouin
 3 years
-I studied the structure and dynamics of hydrogen-bonded liquids using a variety of different experimental techniques. The focus was on understanding the dynamics of supra-molecular clusters in a large range of temperatures, including how the dynamics influence the crystallization process.
+I studied the structure and dynamics of hydrogen-bonded liquids using a variety of different experimental techniques. The focus was on understanding the dynamics of supra-molecular clusters in a wide range of temperatures, including how the dynamics influence the crystallization process.
 
 - Presentation.
 
-
 ### Ph. D. Student
 Dec 2013 - Mar 2017 (3 years)
-
 
 # Education
 ## Masters in Math and Physics from Roskilde University
