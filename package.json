@@ -6,7 +6,7 @@
         "page-flip": "^2.0.0",
         "puppeteer-core": "^5.5.0",
         "stocks.js": "0.0.19",
-        "three": "^0.101.1"
+        "three": "^0.125.0"
     },
     "devDependencies": {
         "puppeteer": "^5.5.0"
