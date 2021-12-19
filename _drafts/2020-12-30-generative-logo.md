@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Redesigning the Blog"
-date: 2021-01-11 12:00:36 +0200
+date: 2022-01-11 12:00:36 +0200
 ---
 
 I like books and I would like my blog design to reflect this. My goal here is to redesign elements og the blog to look like a book.

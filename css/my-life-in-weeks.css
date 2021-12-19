@@ -1,26 +1,28 @@
 :root {
-    --calender-gap: 3px
+    --calender-gap: 1px
 }
 
 .life {
     display: flex;
     column-gap: 1rem;
+    flex-wrap: wrap;
 }
 
 #tooltip {
     flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 30%;
+    flex-shrink: 1;
+    flex-basis: 25%;
     background-color: var(--button-color);
     padding: 8px;
     color: white;
+    min-width: 150px;
 }
 
 #weeks {
     display: flex;
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: 70%;
+    flex-basis: 65%;
     flex-wrap: wrap;
     column-gap: var(--calender-gap);
     row-gap: var(--calender-gap);

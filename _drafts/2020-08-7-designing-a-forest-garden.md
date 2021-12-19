@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Designing a Forest Farden"
-date: 2020-08-7 12:00:36 +0200
+date: 2022-08-7 12:00:36 +0200
 ---
 
 When I eventually buy a house with a garden I want to establish a forest garden. Here I design the garden.

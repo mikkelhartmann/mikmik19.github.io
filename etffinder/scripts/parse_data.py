@@ -1,4 +1,23 @@
+import requests
+import io
 import pandas as pd
+
+
+sources = [
+    {
+        'name':'iShares Automation & Robotics UCITS ETF',
+        'ticker':'RBOT',
+        'URL':'https://www.ishares.com/uk/individual/en/products/284219/fund/1535604580409.ajax?fileType=xls&fileName=iShares-Automation--Robotics-UCITS-ETF-USD-Acc_fund&dataType=fund'},
+]
+
+
+
+def xls_string_to_csv_string(lines):
+    csvString = ''
+    for line in lines:
+        csvString = csvString + line.replace('<tr>', '').replace('</tr>', '')\
+        .replace(',','').replace('</td>',',').replace('<td>','').replace(',\n','')
+    return csvString
 
 
 def xls_to_csv(filename):
@@ -29,7 +48,14 @@ def process_vaneck(filename):
 
 def process_rbot():
     # iShares Automation & Robotics UCITS ETF
-    df = pd.read_csv('./data/raw/RBOT_holdings.csv',  skiprows=2)
+    r = requests.get("https://www.ishares.com/uk/individual/en/products/284219/fund/1506575576011.ajax?fileType=csv&fileName=RBOT_holdings&dataType=fund") 
+    text = str(r.content)
+    lines = text.split('\\n')
+    csv_string = xls_string_to_csv_string(lines)
+    print(csv_string)
+
+    df = pd.read_csv(io.StringIO(csv_string),  skiprows=2)
+    # df = pd.read_csv('./data/raw/RBOT_holdings.csv',  skiprows=2)
     sub_df = df[['Issuer Ticker', 'Name', 'Sector', 'Weight (%)', 'Location']].copy()
     sub_df.rename(
         columns={'Issuer Ticker':'Ticker','Weight (%)': 'Weight', 'Location':'Country'},
@@ -109,16 +135,21 @@ def process_teet():
     df.to_csv('./data/TEET.csv', index=False)
 
 
-process_teet()
-process_tget()
-process_tret()
-process_tswe()
+
+# def process_ark():
+
+
+
+# process_teet()
+# process_tget()
+# process_tret()
+# process_tswe()
 process_rbot()
-process_ecar()
-process_icln()
-process_espo()
-process_lit()
-process_lym9()
+# process_ecar()
+# process_icln()
+# process_espo()
+# process_lit()
+# process_lym9()
 
 
 

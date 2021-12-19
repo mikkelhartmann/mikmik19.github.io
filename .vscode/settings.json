@@ -1,2 +1,20 @@
 {
+    "grammarly.overrides": [
+        {
+            "files": [
+                "**/_drafts/2022-01-01-making-with-a-computer.md"
+            ],
+            "config": {
+                "audience": "general",
+                "dialect": "american",
+                "domain": "casual",
+                "emotions": [
+                    "optimistic"
+                ],
+                "goals": [
+                    "tellStory"
+                ]
+            }
+        }
+    ]
 }
