@@ -1,0 +1,16 @@
+main {
+    position: relative;
+    width: min(100vh,100vw);
+    height: min(100vh,100vw);
+    margin: auto;
+  }
+  
+canvas {
+    z-index: 100;
+    margin: auto;
+    display: block;
+}
+
+#transactionHash {
+    width: 100%
+}
