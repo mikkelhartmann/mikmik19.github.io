@@ -11,8 +11,9 @@ Questionable Weather is a Generative Artwork released on [fx(hash)](https://www.
     <div class="slidecontainer">
         Enter Transaction hash 
         <br>
-        <input type="texrt" class="slider" id='transactionHash' value='ooEnPQ63v4CkfpvJubdnkFqXEwhFsuJytuecbMJ9AtS7KRiNYR5'> and <button text='update' id='updateFeatures'>Update Features</button>
+        <input type="texrt" class="slider" id='transactionHash' value='ooEnPQ63v4CkfpvJubdnkFqXEwhFsuJytuecbMJ9AtS7KRiNYR5'> and <button text='update' id='updateFeatures'>Update Features Based on Hash</button>
         <br> 
+        
         or get a <button text='Random' id='randomHash'>Random Hash and Update Features</button>
     </div>
 </center>
@@ -79,8 +80,6 @@ Questionable Weather is a Generative Artwork released on [fx(hash)](https://www.
         </div>
     </div>
 </center>
-
-The Size feature will sometimes be empty. This is a bug in the original code, so I left I here as well.
 
 ## Image Scale
 <div class='gridLayout'>

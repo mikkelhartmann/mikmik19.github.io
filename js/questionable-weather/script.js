@@ -37,10 +37,14 @@ function getWeather() {
 }
 
 function getSize() {
+    let size = 0.20
     if (fxrand() > .8) return 0.35
     if (fxrand() > .6) return 0.25
-    if (fxrand() > .4) return 0.22
+    if (fxrand() > .4) return 0.20
     if (fxrand() > .2) return 0.15
+
+
+    return size
 }
 
 function getInversion() {
@@ -75,7 +79,7 @@ function getFxrand() {
 
 function setFeatures() {
     // Set value of all feature dropdown menus
-    document.getElementById('palette').value = getPalette(),
+    document.getElementById('palette').value = getPalette()
     document.getElementById('size').value = getSize()
     document.getElementById('weather').value = getWeather()
     document.getElementById('inverted').value = getInversion() ? 'Yes' : 'No'
@@ -260,11 +264,6 @@ function run(width, height) {
         let weather = getIndex(weatherSystem, window.$fxhashFeatures["Weather"])
         let cloudHeightFactor = window.$fxhashFeatures["Size"]
     
-        console.log(
-            window.$fxhashFeatures["Inverted"] ? 'Inverted' : '',
-            window.$fxhashFeatures["Weather"], 
-            window.$fxhashFeatures["Palette"]
-        );
     
         // I lock the noise seed here to make sure that the same hash generated
         // the same output
@@ -294,8 +293,6 @@ function run(width, height) {
                 gradientEnd = invertColor(gradientEnd)
             }
     
-            
-    
             let borderWidth = 0.05 * width;
             let xStepSize = 1;
             
@@ -308,9 +305,6 @@ function run(width, height) {
             // I se the step to ensure that the is never any room 
             // between clouds. 
             let yStepSize = (lineLength + yNoiseScale)/6;
-    
-            console.log({ cloudHeightFactor })
-            console.log({ lineLength })
     
             let yoff = 0;
             let xoff = 0.0;
