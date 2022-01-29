@@ -13,9 +13,9 @@ Questionable Weather is a Generative Artwork released on [fx(hash)](https://www.
         <br>
         <input type="texrt" class="slider" id='transactionHash' value='ooEnPQ63v4CkfpvJubdnkFqXEwhFsuJytuecbMJ9AtS7KRiNYR5'> and <button text='update' id='updateFeatures'>Update Features Based on Hash</button>
         <br> 
-        
+    </div>    
         or get a <button text='Random' id='randomHash'>Random Hash and Update Features</button>
-    </div>
+    
 </center>
 
 ## Features
@@ -81,6 +81,17 @@ Questionable Weather is a Generative Artwork released on [fx(hash)](https://www.
     </div>
 </center>
 
+## Parameters
+
+<div class='gridLayout'>
+    <div class="slidecontainer">Start Color: <input type="text" class="slider" id="startColor"></div>
+    <div class="slidecontainer">End Color: <input type="text" class="slider" id="endColor"></div>
+    <div class="slidecontainer">X Noise Scale: <input type="number" class="slider" id="xNoiseScale"></div>
+    <div class="slidecontainer">Y Noise Scale: <input type="number" class="slider" id="yNoiseScale"></div>
+    <div class="slidecontainer">Noise Increment: <input type="number" class="slider" id="noiseIncrement"></div>
+</div>
+
+
 ## Image Scale
 <div class='gridLayout'>
     <div class="slidecontainer">
@@ -93,7 +104,7 @@ Questionable Weather is a Generative Artwork released on [fx(hash)](https://www.
 
 ## Generate The image
 <center>
-    <button text='Random' id='generate'>Generate</button>
+    <button text='Random' id='generate'>Generate Image</button>
 </center>
 
 ## Output

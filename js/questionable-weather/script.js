@@ -1,3 +1,138 @@
+let weatherSystem = [
+    {
+        name: "Tranquil",
+        yNoiseScale: 0.015,
+        xNoiseScale: 0.05,
+        noiseIncrement: 0.009
+    },
+    {
+        name: "Mild",
+        yNoiseScale: 0.05,
+        xNoiseScale: 0.01,
+        noiseIncrement: 0.01
+    },
+    {
+        name: "Rough",
+        yNoiseScale: 0.08,
+        xNoiseScale: 0.01,
+        noiseIncrement: 0.0125
+    },
+    {
+        name: "Stormy",
+        yNoiseScale: 0.09,
+        xNoiseScale: 0.01,
+        noiseIncrement: 0.015
+    },
+    {
+        name: "Wild",
+        yNoiseScale: 0.10,
+        xNoiseScale: 0.01,
+        noiseIncrement: 0.0175
+    },
+    {
+        name: "Questionable",
+        yNoiseScale: 0.12,
+        xNoiseScale: 0.01,
+        noiseIncrement: 0.02
+    }
+]
+
+let palettes = [
+    {
+        name: "Brown",
+        startColor: "rgb(188, 138, 75)",
+        endColor: "rgb(85, 83, 75)"
+    },
+    {
+        name: "Pinks",
+        startColor: "rgb(254, 218, 215)",
+        endColor: "rgb(191, 128, 129)"
+    },
+    {
+        name: "Silver",
+        startColor: "rgb(191, 202, 212)",
+        endColor: "rgb(37, 52, 83)"
+    },
+    {
+        name: "Purple",
+        startColor: "rgb(149, 128, 255)",
+        endColor: "rgb(87, 57, 127)"
+    },
+    {
+        name: "MintOrange",
+        startColor: "rgb(108, 200, 196)",
+        endColor: "rgb(149, 91, 1)"
+    },
+    {
+        name: "Dusk",
+        startColor: "rgb(253, 248, 159)",
+        endColor: "rgb(55, 42, 100)"
+    },
+    {
+        name: "Reds",
+        startColor: "rgb(215, 91, 64)",
+        endColor: "rgb(115, 40, 51)"
+    },
+    {
+        name: "Golden",
+        startColor: "rgb(39, 63, 77)",
+        endColor: "rgb(169, 131, 27)"
+    },
+    {
+        name: "Dark Yellow",
+        startColor: "rgb(199, 195, 96)",
+        endColor: "rgb(62, 31, 28)"
+    },
+    {
+        name: "Gem",
+        startColor: "rgb(211, 169, 147)",
+        endColor: "rgb(65, 4, 64)"
+    },
+    {
+        name: "Dream",
+        startColor: "rgb(112, 195, 129)",
+        endColor: "rgb(161, 72, 106)"
+    },
+    {
+        name: "Purple Haze",
+        startColor: "rgb(160, 110, 40)",
+        endColor: "rgb(64, 50, 157)"
+    },
+    {
+        name: "Affection",
+        startColor: "rgb(58, 139, 150)",
+        endColor: "rgb(191, 55, 79)"
+    },
+    {
+        name: "Pity",
+        startColor: "rgb(111, 42, 61)",
+        endColor: "rgb(133, 51, 59)"
+    },
+    {
+        name: "Envy",
+        startColor: "rgb(183, 212, 101)",
+        endColor: "rgb(43, 21, 23)"
+    },
+    {
+        name: "Hope",
+        startColor: "rgb(64, 202, 194)",
+        endColor: "rgb(6, 55, 74)"
+    },
+    {
+        name: "Light",
+        startColor: "rgb(204, 200, 214)",
+        endColor: "rgb(149, 94, 167)"
+    },
+
+];
+
+let getIndex = function (properties, propertyName) {
+    for (let i = 0; i < properties.length; i++) {
+        if (properties[i].name === propertyName)
+            return i;
+    }
+    return -1;
+}
 
 document.getElementById('height').value = Math.min(document.body.clientWidth - 40, 400)
 document.getElementById('width').value = Math.min(document.body.clientWidth - 40, 400)
@@ -42,8 +177,6 @@ function getSize() {
     if (fxrand() > .6) return 0.25
     if (fxrand() > .4) return 0.20
     if (fxrand() > .2) return 0.15
-
-
     return size
 }
 
@@ -83,6 +216,16 @@ function setFeatures() {
     document.getElementById('size').value = getSize()
     document.getElementById('weather').value = getWeather()
     document.getElementById('inverted').value = getInversion() ? 'Yes' : 'No'
+
+    // Set the value of the parameters based on features
+    let palette = getIndex(palettes, document.getElementById('palette').value);
+    let weather = getIndex(weatherSystem, document.getElementById('weather').value)
+
+    document.getElementById('startColor').value = palettes[palette].startColor;
+    document.getElementById('endColor').value = palettes[palette].endColor;
+    document.getElementById('yNoiseScale').value = weatherSystem[weather].yNoiseScale
+    document.getElementById('xNoiseScale').value = weatherSystem[weather].xNoiseScale
+    document.getElementById('noiseIncrement').value = weatherSystem[weather].noiseIncrement
 }
 
 document.getElementById('updateFeatures').onclick = function(){
@@ -122,149 +265,8 @@ function run(width, height) {
     
     
     let sketch = function (p) {
-
     
-        let weatherSystem = [
-            {
-                name: "Tranquil",
-                yNoiseScale: 0.015,
-                xNoiseScale: 0.05,
-                noiseIncrement: 0.009
-            },
-            {
-                name: "Mild",
-                yNoiseScale: 0.05,
-                xNoiseScale: 0.01,
-                noiseIncrement: 0.01
-            },
-            {
-                name: "Rough",
-                yNoiseScale: 0.08,
-                xNoiseScale: 0.01,
-                noiseIncrement: 0.0125
-            },
-            {
-                name: "Stormy",
-                yNoiseScale: 0.09,
-                xNoiseScale: 0.01,
-                noiseIncrement: 0.015
-            },
-            {
-                name: "Wild",
-                yNoiseScale: 0.10,
-                xNoiseScale: 0.01,
-                noiseIncrement: 0.0175
-            },
-            {
-                name: "Questionable",
-                yNoiseScale: 0.12,
-                xNoiseScale: 0.01,
-                noiseIncrement: 0.02
-            }
-        ]
-    
-        let palettes = [
-            {
-                name: "Brown",
-                startColor: "rgb(188, 138, 75)",
-                endColor: "rgb(85, 83, 75)"
-            },
-            {
-                name: "Pinks",
-                startColor: "rgb(254, 218, 215)",
-                endColor: "rgb(191, 128, 129)"
-            },
-            {
-                name: "Silver",
-                startColor: "rgb(191, 202, 212)",
-                endColor: "rgb(37, 52, 83)"
-            },
-            {
-                name: "Purple",
-                startColor: "rgb(149, 128, 255)",
-                endColor: "rgb(87, 57, 127)"
-            },
-            {
-                name: "MintOrange",
-                startColor: "rgb(108, 200, 196)",
-                endColor: "rgb(149, 91, 1)"
-            },
-            {
-                name: "Dusk",
-                startColor: "rgb(253, 248, 159)",
-                endColor: "rgb(55, 42, 100)"
-            },
-            {
-                name: "Reds",
-                startColor: "rgb(215, 91, 64)",
-                endColor: "rgb(115, 40, 51)"
-            },
-            {
-                name: "Golden",
-                startColor: "rgb(39, 63, 77)",
-                endColor: "rgb(169, 131, 27)"
-            },
-            {
-                name: "Dark Yellow",
-                startColor: "rgb(199, 195, 96)",
-                endColor: "rgb(62, 31, 28)"
-            },
-            {
-                name: "Gem",
-                startColor: "rgb(211, 169, 147)",
-                endColor: "rgb(65, 4, 64)"
-            },
-            {
-                name: "Dream",
-                startColor: "rgb(112, 195, 129)",
-                endColor: "rgb(161, 72, 106)"
-            },
-            {
-                name: "Purple Haze",
-                startColor: "rgb(160, 110, 40)",
-                endColor: "rgb(64, 50, 157)"
-            },
-            {
-                name: "Affection",
-                startColor: "rgb(58, 139, 150)",
-                endColor: "rgb(191, 55, 79)"
-            },
-            {
-                name: "Pity",
-                startColor: "rgb(111, 42, 61)",
-                endColor: "rgb(133, 51, 59)"
-            },
-            {
-                name: "Envy",
-                startColor: "rgb(183, 212, 101)",
-                endColor: "rgb(43, 21, 23)"
-            },
-            {
-                name: "Hope",
-                startColor: "rgb(64, 202, 194)",
-                endColor: "rgb(6, 55, 74)"
-            },
-            {
-                name: "Light",
-                startColor: "rgb(204, 200, 214)",
-                endColor: "rgb(149, 94, 167)"
-            },
-    
-        ];
-    
-        let getIndex = function (properties, propertyName) {
-            for (let i = 0; i < properties.length; i++) {
-                if (properties[i].name === propertyName)
-                    return i;
-            }
-            return -1;
-        }
-    
-        let palette = getIndex(palettes, window.$fxhashFeatures["Palette"]);
-        let weather = getIndex(weatherSystem, window.$fxhashFeatures["Weather"])
         let cloudHeightFactor = window.$fxhashFeatures["Size"]
-    
-    
         // I lock the noise seed here to make sure that the same hash generated
         // the same output
         p.noiseSeed(p.floor(fxrand()*1000))
@@ -285,8 +287,8 @@ function run(width, height) {
         };
     
         makeArt = function() {
-            let gradientStart = palettes[palette].startColor;
-            let gradientEnd = palettes[palette].endColor;
+            let gradientStart = document.getElementById('startColor').value;
+            let gradientEnd = document.getElementById('endColor').value;
     
             if (window.$fxhashFeatures["Inverted"]) {
                 gradientStart = invertColor(gradientStart)
@@ -299,8 +301,12 @@ function run(width, height) {
             
             let lineLength = height * cloudHeightFactor;
     
-            let yNoiseScale = height * weatherSystem[weather].yNoiseScale;
-            let xNoiseScale = width * weatherSystem[weather].xNoiseScale;
+            // let weather = getIndex(weatherSystem, document.getElementById('weather').value)
+            // let yNoiseScale = height * weatherSystem[weather].yNoiseScale;
+            // let xNoiseScale = width * weatherSystem[weather].xNoiseScale;
+
+            let yNoiseScale = height * parseFloat(document.getElementById('yNoiseScale').value)
+            let xNoiseScale = width * parseFloat(document.getElementById('xNoiseScale').value)
             
             // I se the step to ensure that the is never any room 
             // between clouds. 
@@ -309,7 +315,7 @@ function run(width, height) {
             let yoff = 0;
             let xoff = 0.0;
     
-            let noiseIncrement = weatherSystem[weather].noiseIncrement;
+            let noiseIncrement = parseFloat(document.getElementById('noiseIncrement').value)//weatherSystem[weather].noiseIncrement 
     
             let yLoopStart = height - lineLength - yNoiseScale;
     
