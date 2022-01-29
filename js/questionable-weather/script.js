@@ -1,4 +1,52 @@
+
+document.getElementById('height').value = Math.min(document.body.clientWidth - 40, 400)
+document.getElementById('width').value = Math.min(document.body.clientWidth - 40, 400)
+
 let alphabet = "123456789abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ"
+fxrand = getFxrand()
+console.log(fxrand())
+
+function getPalette() {
+    if (fxrand()  > .96) return "Light"
+    if (fxrand()  > .9) return "Brown"
+    if (fxrand()  > .84) return "Silver"
+    if (fxrand()  > .78) return "Purple"
+    if (fxrand()  > .72) return "Pinks"
+    if (fxrand()  > .66) return "MintOrange"
+    if (fxrand()  > .60) return "Dusk"
+    if (fxrand()  > .54) return "Reds"
+    if (fxrand()  > .48) return "Golden"
+    if (fxrand()  > .42) return "Dark Yellow"
+    if (fxrand()  > .36) return "Gem"
+    if (fxrand()  > .30) return "Dream"
+    if (fxrand()  > .24) return "Purple Haze"
+    if (fxrand()  > .18) return "Pity"
+    if (fxrand()  > .12) return "Envy"
+    if (fxrand()  > .06) return "Affection"
+    return "Hope"
+}
+
+function getWeather() {
+    if (fxrand() > .95) return "Tranquil"
+    if (fxrand() > .8) return "Mild"
+    if (fxrand() > .55) return "Rough"
+    if (fxrand() > .4) return "Stormy"
+    if (fxrand() > .3) return "Wild"
+    if (fxrand() > .1) return "Questionable"
+    return "Stormy"
+}
+
+function getSize() {
+    if (fxrand() > .8) return 0.35
+    if (fxrand() > .6) return 0.25
+    if (fxrand() > .4) return 0.22
+    if (fxrand() > .2) return 0.15
+}
+
+function getInversion() {
+    if (fxrand() > 0.5) return true
+    return false
+}
 
 function getRandomHash() {
     return "oo" + Array(49).fill(0).map(_=>alphabet[(Math.random()*alphabet.length)|0]).join('')
@@ -25,8 +73,23 @@ function getFxrand() {
     return sfc32(...hashes)
 }
 
+function setFeatures() {
+    // Set value of all feature dropdown menus
+    document.getElementById('palette').value = getPalette(),
+    document.getElementById('size').value = getSize()
+    document.getElementById('weather').value = getWeather()
+    document.getElementById('inverted').value = getInversion() ? 'Yes' : 'No'
+}
+
+document.getElementById('updateFeatures').onclick = function(){
+    fxrand = getFxrand()
+    console.log(fxrand())
+    setFeatures()
+}
+
 document.getElementById('randomHash').onclick = function(){
     document.getElementById('transactionHash').value = getRandomHash()
+    setFeatures()
 }
 
 
@@ -42,57 +105,15 @@ document.getElementById('generate').onclick = function(){
 }
 
 function run(width, height) {
-
+    
     console.log(fxrand())
 
-    function getPalette() {
-        if (fxrand()  > .96) return "Light"
-        if (fxrand()  > .9) return "Brown"
-        if (fxrand()  > .84) return "Silver"
-        if (fxrand()  > .78) return "Purple"
-        if (fxrand()  > .72) return "Pinks"
-        if (fxrand()  > .66) return "MintOrange"
-        if (fxrand()  > .60) return "Dusk"
-        if (fxrand()  > .54) return "Reds"
-        if (fxrand()  > .48) return "Golden"
-        if (fxrand()  > .42) return "Dark Yellow"
-        if (fxrand()  > .36) return "Gem"
-        if (fxrand()  > .30) return "Dream"
-        if (fxrand()  > .24) return "Purple Haze"
-        if (fxrand()  > .18) return "Pity"
-        if (fxrand()  > .12) return "Envy"
-        if (fxrand()  > .06) return "Affection"
-        return "Hope"
-    }
-    
-    function getWeather() {
-        if (fxrand() > .95) return "Tranquil"
-        if (fxrand() > .8) return "Mild"
-        if (fxrand() > .55) return "Rough"
-        if (fxrand() > .4) return "Stormy"
-        if (fxrand() > .3) return "Wild"
-        if (fxrand() > .1) return "Questionable"
-        return "Stormy"
-    }
-    
-    function getSize() {
-        if (fxrand() > .8) return 0.35
-        if (fxrand() > .6) return 0.25
-        if (fxrand() > .4) return 0.20
-        if (fxrand() > .2) return 0.15
-        return 0.20
-    }
-    
-    function getInversion() {
-        if (fxrand() > 0.5) return true
-        return false
-    }
-    
+    // Get the features from the menu
     window.$fxhashFeatures = {
-        "Palette": getPalette(),
-        "Size": getSize(),
-        "Weather": getWeather(),
-        "Inverted": getInversion()
+        "Palette": document.getElementById('palette').value,
+        "Size": document.getElementById('size').value,
+        "Weather": document.getElementById('weather').value,
+        "Inverted": document.getElementById('inverted').value == 'Yes' ? true : false
     }
     
     
@@ -370,5 +391,6 @@ function run(width, height) {
     new p5(sketch, 'questionableWeather');
 }
 
-fxrand = getFxrand()
-run(400, 400)
+setFeatures()
+let defaultSize = document.getElementById('height').value
+run(defaultSize, defaultSize)
