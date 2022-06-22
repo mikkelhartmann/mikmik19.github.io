@@ -7,7 +7,7 @@ authors = ["Mikkel Hansen <mikkelheart@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 pandas = "^1.2.2"
-numpy = "^1.20.1"
+numpy = "^1.22.0"
 requests = "^2.25.1"
 xlrd = "^2.0.1"
 
